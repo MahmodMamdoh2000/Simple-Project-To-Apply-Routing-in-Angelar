@@ -1,0 +1,41 @@
+.footers{
+  background-color: black;
+  min-height: 30vh;
+}
+
+.icons {
+  font-size: 30px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  color: #ffffff88;
+}
+i{
+  padding: 30px;
+  margin: 20px;
+  border: 5px #fff solid;
+}
+h5{
+  font-size: 15px;
+  color: #ffffff96;
+}
+h2{
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+
+.copyRight{
+  min-height: 13vh;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyRight h3{
+  font-size: 17px;
+  color: #ffffffd5;
+}

@@ -1,0 +1,36 @@
+section{
+  min-height: 100vh;
+}
+
+h1{
+  color: #2c3e50;
+  margin-top: 30px;
+  font-weight: 700;
+  position: relative;
+  font-size: 50px;
+  margin-top: 120px;
+}
+
+h1::after{
+  content: "";
+  position: absolute;
+  border: 2px solid #2c3e50;
+  top:130%;
+  width: 20%;
+  left: 55%;
+
+}
+
+h1::before{
+  content: "";
+  position: absolute;
+  border: 2px solid #2c3e50;
+  top:130%;
+  width: 20%;
+  right:56%
+}
+
+img{
+  position: relative;
+}
+
